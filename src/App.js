@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import MovieCard from './MovieCard';
 import './App.css'
 import SearchIcon from './search.svg'
+import Footer from './Footer';
 
 const API_URL = 'http://www.omdbapi.com?apikey=2b045c83';
 
@@ -52,7 +53,7 @@ const App = () => {
                     </div>
                 )}
 
-
+                <Footer/>
         </div>
     );
 }
